@@ -5,7 +5,7 @@ __author__ = "Zachary Sutton"
 def cont():
     """
 This function determines whether or not the user wants to run the program again
-    :return: 
+    :return: cont_run
     """
     run_cont = True
     cont_run = True
@@ -25,7 +25,7 @@ This function determines whether or not the user wants to run the program again
 def integer_input():
     """
 This function makes sure the user inputs an integer
-    :return:
+    :return: integer
     """
     execute = True
     integer = 0
