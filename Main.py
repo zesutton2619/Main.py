@@ -1,8 +1,12 @@
-# Zachary Sutton
-# A demonstration of different python operations
+"""A demonstration of different python operations"""
+__author__ = "Zachary Sutton"
 
 
 def cont():
+    """
+This function determines whether or not the user wants to run the program again
+    :return: 
+    """
     run_cont = True
     cont_run = True
     while run_cont:
@@ -19,6 +23,10 @@ def cont():
 
 
 def integer_input():
+    """
+This function makes sure the user inputs an integer
+    :return:
+    """
     execute = True
     integer = 0
     while execute:
@@ -32,7 +40,7 @@ def integer_input():
 
 run = False
 
-while not (run):
+while not run:
     print(
         "\nHello my name is Zach and this program is used to demonstrate diffe"
         "rent python operations.")
@@ -89,7 +97,7 @@ while not (run):
 
     print(
         "\nThe next example will be using the ""%" + " modulus operator to ret"
-                                                     "urn the remainder after dividing two numbers.")
+        "urn the remainder after dividing two numbers.")
     print("Enter a number that is an integer: ")
     mod1 = integer_input()
     print("Enter another number that is an integer: ")
