@@ -102,7 +102,7 @@ Main program
 
         print(
             "\nThe next example will be using the ""%" + " modulus operator to"
-            " return the remainder after dividing two numbers.")
+                                                         " return the remainder after dividing two numbers.")
         print("Enter a number that is an integer: ")
         mod1 = integer_input()
         print("Enter another number that is an integer: ")
